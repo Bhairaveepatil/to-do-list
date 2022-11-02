@@ -1,0 +1,99 @@
+.Todo {
+  display: flex;
+  margin: 0 -3rem 4px;
+  padding: 1.1rem 3rem;
+  height: 77px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(96, 224, 56, 0.2);
+  overflow: hidden;
+  position: relative;
+  transition: opacity 500ms ease-in-out;
+}
+
+.Todo-buttons {
+  flex-shrink: 0;
+  padding-left: 0.7em;
+  margin-left: auto;
+}
+
+.Todo-buttons button {
+  font-size: 1em;
+  margin: 0.4em;
+  background-color: #ffffff;
+  border: 1px solid #f8f8f8;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  outline: none;
+  padding: 10px 23px;
+  position: relative;
+  box-sizing: border-box;
+
+  transition: box-shadow 0.2s, -ms-transform 0.1s, -webkit-transform 0.1s,
+    transform 0.1s;
+  cursor: pointer;
+}
+
+.Todo-edit-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Todo-edit-form label {
+  min-width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+.Todo-edit-form input {
+  flex-grow: 1;
+  border: none;
+  background: #f7f1f1;
+  padding: 0 1.5em;
+  font-size: initial;
+}
+.Todo-edit-form button {
+  padding: 0 2rem;
+  border: none;
+  background: #ffffff;
+  color: rgb(7, 7, 7);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 5px;
+  cursor: pointer;
+}
+.Todo-edit-form button:hover {
+  background: #da5794;
+}
+.Todo-buttons :hover {
+  background: #4be2d5;
+}
+li {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  border-radius: 0px;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 13px 40px;
+
+  text-decoration: none;
+}
+.Todo-edit-form input,
+.Todo-edit-form button {
+  font-family: "Quicksand", sans-serif;
+  height: 3rem;
+}
+.attr {
+  margin-top: -3;
+}
